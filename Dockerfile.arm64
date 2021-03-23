@@ -1,7 +1,7 @@
 FROM docker.io/alpine:3.13 AS fetcher
 LABEL maintainer="Dalton Hubble <dghubble@gmail.com>"
 
-ARG KUBELET=v1.20.4
+ARG KUBELET=v1.19.8
 ARG ARCH=arm64
 ARG SHA=3a5ab2918e0e73fbfa4aa566ba385d677fd7948f81fbc571d9c3dde1820a82bf50359d4012ad14bfe4ce4a9911070dd7cb99a0cd92a74e356d038658447597be
 
